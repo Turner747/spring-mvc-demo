@@ -7,10 +7,17 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
-  <head>
-    <title>$Title$</title>
-  </head>
-  <body>
-  $END$
-  </body>
+<head>
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/assets/css/style.css">
+
+    <title>Spring Demo - Main Menu</title>
+</head>
+<body>
+    <img id="profile-pic" src="${pageContext.request.contextPath}/assets/images/jt-profile.png" alt="Josh profile picture">
+    <h2>Spring Demo - Main Menu</h2>
+    <br>
+    <a class="button" href="hello/showForm">Hello World Form</a>
+    <br><br><br><br>
+    <a class="button" href="student/showForm">Student Registration Form</a>
+</body>
 </html>
