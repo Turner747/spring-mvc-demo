@@ -8,17 +8,26 @@ h2 {
     font-family: Helvetica, Arial, SansSerif;
 }
 
+#nav {
+    padding: 20px;
+    width: 300px;
+    align-content: center;
+}
+
 .button {
     font-family: Helvetica, Arial, SansSerif;
     font-weight: bold;
     padding: 20px 30px;
     background-image: linear-gradient(180deg, lightgreen, limegreen);
-    background-color: limegreen;
+    box-shadow: 0 3px 3px 0 rgb(0,0,0,0.2),
+                0 5px 5px 0 rgb(0,0,0,0.5);
     color: black;
     text-align: center;
     text-decoration: none;
     border-radius: 10px;
     font-size: 16px;
+    width: max-content;
+    border: 0px;
 }
 
 .button:link {
@@ -28,10 +37,81 @@ h2 {
 
 }
 .button:hover {
-    background-image: linear-gradient(180deg, lightgreen, green);
-    box-shadow: 0 5px 5px 0 rgb(0,0,0,0.2);
+    background-image: linear-gradient(0deg, green, lightgreen);
+    box-shadow: none;
+    cursor: pointer;
  }
 .button:active {
 
 }
 
+.form-label {
+    font-family: Helvetica, Arial, SansSerif;
+    font-size: 16px;
+}
+
+.form-field {
+    padding: 5px;
+    width: 200px;
+}
+
+select {
+    padding: 5px;
+    align-items: end;
+    display: inline-block;
+    width: 200px;
+}
+
+.output{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    align-content: center;
+    font-family: Helvetica, Arial, SansSerif;
+}
+
+.output h2{
+    text-align: center;
+    font-size: 24px;
+    padding-bottom: 3px;
+}
+
+.output p {
+    text-align: center;
+    font-size: 16px;
+    padding-bottom: 2px;
+}
+.output a{
+    text-align: center;
+}
+
+.output ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.input{
+    margin: 30px;
+    width: 50%;
+    align-content: center;
+}
+
+.input h2{
+    font-family: Helvetica, Arial, SansSerif;
+    font-size: 24px;
+    padding: 3px 0px 3px 0px;
+}
+
+.input p {
+    font-family: Helvetica, Arial, SansSerif;
+    font-size: 16px;
+    padding: 2px 0px 2px 0px;
+}
+.input a{
+
+}
+
+form:radiobuttons {
+    padding:5px;
+}

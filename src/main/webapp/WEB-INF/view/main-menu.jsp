@@ -13,11 +13,14 @@
     <title>Spring Demo - Main Menu</title>
 </head>
 <body>
-    <img id="profile-pic" src="${pageContext.request.contextPath}/assets/images/jt-profile.png" alt="Josh profile picture">
-    <h2>Spring Demo - Main Menu</h2>
-    <br>
-    <a class="button" href="hello/showForm">Hello World Form</a>
-    <br><br><br><br>
-    <a class="button" href="student/showForm">Student Registration Form</a>
+    <div id="heading">
+        <img id="profile-pic" src="${pageContext.request.contextPath}/assets/images/jt-profile.png" alt="Josh profile picture">
+        <h2>Spring Demo - Main Menu</h2>
+    </div>
+    <div id="nav">
+        <a class="button" href="hello/showForm">Hello World Form</a>
+        <br><br><br><br>
+        <a class="button" href="student/showForm">Student Registration Form</a>
+    </div>
 </body>
 </html>

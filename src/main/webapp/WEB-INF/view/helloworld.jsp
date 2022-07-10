@@ -8,12 +8,15 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/assets/css/style.css">
+
     <title>Hello World</title>
 </head>
 <body>
-    <h2>Hello world of spring</h2>
-    <br>
-    <p>Student name: ${param.studentName}</p>
-    <p>Message: ${message}</p>
+    <div class="output">
+        <h2>Hello world of spring</h2>
+        <p>Student name: ${param.studentName}</p>
+        <p>Message: ${message}</p>
+    </div>
 </body>
 </html>

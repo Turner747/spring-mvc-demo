@@ -8,15 +8,20 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/assets/css/style.css">
+
     <title>Hello World - Form</title>
 </head>
 <body>
-    <form action="processFormVersionThree" method="GET">
-        <input type="text" name="studentName"
-                    placeholder="What's your name?" />
-
-        <input type="submit">
-
-    </form>
+    <div class="input">
+        <h2>Hello Form</h2>
+        <form action="processFormVersionThree" method="GET">
+            <input type="text" name="studentName"
+                        placeholder="What's your name?"
+                        class="form-field"/>
+            <br><br>
+            <input class="button" type="submit">
+        </form>
+    </div>
 </body>
 </html>
