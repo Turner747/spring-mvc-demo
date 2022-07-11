@@ -13,10 +13,12 @@
     <title>Hello World</title>
 </head>
 <body>
-    <div class="output">
-        <h2>Hello world of spring</h2>
-        <p>Student name: ${param.studentName}</p>
-        <p>Message: ${message}</p>
+    <div class="form">
+        <div class="output">
+            <h2>Hello world of spring</h2>
+            <p>Student name: ${param.studentName}</p>
+            <p>Message: ${message}</p>
+        </div>
     </div>
 </body>
 </html>

@@ -14,17 +14,19 @@
     <title>Student Confirmation</title>
 </head>
 <body>
-    <div class="output">
-        <h2><b>Student Confirmation</b></h2>
-        <p><b>The student is confirmed:</b> ${student.firstName} ${student.lastName}</p>
-        <p><b>Country:</b> ${student.country}</p>
-        <p><b>Favourite language:</b> ${student.favouriteLanguage}</p>
-        <p><b>Operating Systems:</b></p>
-        <ul>
-            <c:forEach var="temp" items="${student.operatingSystems}">
-                <li><p>${temp}</p></li>
-            </c:forEach>
-        </ul>
+    <div class="form">
+        <div class="output">
+            <h2><b>Student Confirmation</b></h2>
+            <p><b>The student is confirmed:</b> ${student.firstName} ${student.lastName}</p>
+            <p><b>Country:</b> ${student.country}</p>
+            <p><b>Favourite language:</b> ${student.favouriteLanguage}</p>
+            <p><b>Operating Systems:</b></p>
+            <ul>
+                <c:forEach var="temp" items="${student.operatingSystems}">
+                    <li><p>${temp}</p></li>
+                </c:forEach>
+            </ul>
+        </div>
     </div>
 </body>
 </html>

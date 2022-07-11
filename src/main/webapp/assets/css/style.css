@@ -1,12 +1,24 @@
+body{
+    background-color: skyblue;
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: center;
+}
+
+.form {
+    background-color: #fff;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px 20px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
 #profile-pic {
     width: 200px;
     height: auto;
     border-radius: 50%;
 }
 
-h2 {
-    font-family: Helvetica, Arial, SansSerif;
-}
+
 
 #nav {
     padding: 20px;
@@ -15,7 +27,6 @@ h2 {
 }
 
 .button {
-    font-family: Helvetica, Arial, SansSerif;
     font-weight: bold;
     padding: 20px 30px;
     background-image: linear-gradient(180deg, lightgreen, limegreen);
@@ -28,6 +39,7 @@ h2 {
     font-size: 16px;
     width: max-content;
     border: 0px;
+    margin: 10px 0px 10px 0px;
 }
 
 .button:link {
@@ -46,20 +58,20 @@ h2 {
 }
 
 .form-label {
-    font-family: Helvetica, Arial, SansSerif;
     font-size: 16px;
+    display: block;
+    text-align: left;
+    margin-bottom: 10px;
 }
 
-.form-field {
-    padding: 5px;
-    width: 200px;
-}
-
-select {
-    padding: 5px;
-    align-items: end;
-    display: inline-block;
-    width: 200px;
+.form-field,
+select{
+    padding: 10px;
+    width: 95%;
+    border-radius: 2px;
+    font-family: inherit;
+    display: block;
+    border: 1px solid #777;
 }
 
 .output{
@@ -67,7 +79,6 @@ select {
     width: 50%;
     padding: 10px;
     align-content: center;
-    font-family: Helvetica, Arial, SansSerif;
 }
 
 .output h2{
@@ -98,20 +109,14 @@ select {
 }
 
 .input h2{
-    font-family: Helvetica, Arial, SansSerif;
     font-size: 24px;
     padding: 3px 0px 3px 0px;
 }
 
 .input p {
-    font-family: Helvetica, Arial, SansSerif;
     font-size: 16px;
     padding: 2px 0px 2px 0px;
 }
 .input a{
 
-}
-
-form:radiobuttons {
-    padding:5px;
 }

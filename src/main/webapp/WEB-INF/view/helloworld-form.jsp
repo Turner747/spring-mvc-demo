@@ -15,13 +15,15 @@
 <body>
     <div class="input">
         <h2>Hello Form</h2>
-        <form action="processFormVersionThree" method="GET">
-            <input type="text" name="studentName"
-                        placeholder="What's your name?"
-                        class="form-field"/>
-            <br><br>
-            <input class="button" type="submit">
-        </form>
+        <div class="form">
+            <form action="processFormVersionThree" method="GET">
+                <input type="text" name="studentName"
+                            placeholder="What's your name?"
+                            class="form-field"/>
+                <br><br>
+                <input class="button" type="submit">
+            </form>
+        </div>
     </div>
 </body>
 </html>
