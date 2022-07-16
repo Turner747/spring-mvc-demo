@@ -42,19 +42,12 @@ body{
     margin: 10px 0px 10px 0px;
 }
 
-.button:link {
-
-}
-.button:visited {
-
-}
 .button:hover {
     background-image: linear-gradient(0deg, green, lightgreen);
-    box-shadow: none;
     cursor: pointer;
  }
 .button:active {
-
+    box-shadow: none;
 }
 
 .form-label {
